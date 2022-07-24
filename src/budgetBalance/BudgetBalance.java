@@ -37,7 +37,7 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 
-import com.github.lgooddatepicker.components.DatePicker;
+//import com.github.lgooddatepicker.components.DatePicker;
 /**
  * The visual environment for the Electricity Usage Predictor. 
  * Construction (instantiation)
@@ -386,7 +386,7 @@ implements ActionListener {
 				createTitledBorder("Date of Most Recent Bill"),
 				BorderFactory.createEmptyBorder(5, 5, 5, 5)),
 				datePickerCurrentBillDate.getBorder()));
-	hbox1.add(datePickerCurrentBillDate) ;
+//	hbox1.add(datePickerCurrentBillDate) ;
 	
 	
 	datePickerCurrentDate = new DatePicker() ;
@@ -411,7 +411,7 @@ implements ActionListener {
 //	Box vboxCurrent = Box.createVerticalBox() ;
 //	hbox1.add(vboxCurrent) ;
 //	vboxCurrent.add(new )
-	hbox1.add(datePickerCurrentDate) ;
+//	hbox1.add(datePickerCurrentDate) ;
 	
 	/*
 	 * Getting stored billing date information.
@@ -455,7 +455,7 @@ implements ActionListener {
 					"Expected Date of Next Bill"),
 				BorderFactory.createEmptyBorder(5, 5, 5, 5)),
 				datePickerNextBillDate.getBorder()));
-	hbox1.add(datePickerNextBillDate) ;
+//	hbox1.add(datePickerNextBillDate) ;
 	
 	jb = new JButton("GO (predict)") ;
         jb.setContentAreaFilled(false) ;
