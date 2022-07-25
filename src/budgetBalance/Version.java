@@ -27,7 +27,7 @@ public final class Version<T> implements Serializable, Comparable<T> {
 //    private static final String versionDate = __DATE__ ;
 //    private static final String versionTime = __TIME__ ;
     private static final String VERSION = "Revised on [Date Time Zone]: " +
-	     "2022-05-08 15:18:43 -0500" // IanDateTime
+	     "2022-07-24 19:25:39 -0500" // IanDateTime
 
 /*
  * Use
